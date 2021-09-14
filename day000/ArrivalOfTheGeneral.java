@@ -7,7 +7,7 @@ public class ArrivalOfTheGeneral {
 		
 			int n=sc.nextInt();
 			int soliders[]=new int[n];
-			int max=0,min=0,cnt=0;
+			int max=0,min=0,count=0;
 			for(int i=0;i<n;i++)
 			{
 				soliders[i]=sc.nextInt();
@@ -18,13 +18,13 @@ public class ArrivalOfTheGeneral {
 			}
 			if(min<max)
 			{
-				cnt=max+(n-min-2);
+				count=max+(n-min-2);
 			}
 			else
 			{
-				cnt=max+(n-1-min);
+				count=max+(n-1-min);
 			}
 			
-			System.out.println(cnt);
+			System.out.println(count);
 		}
 } 
